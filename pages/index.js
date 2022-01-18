@@ -18,8 +18,7 @@ export default function Home() {
                     <Banner/>
                 </div>
                 <div className="container mx-auto grid justify-center sm:block z-20">
-                    <TopCards title='Top Rated Mechanics' cardData={topMechanics} card={CardMechanic}/>
-                    <TopCards title='Top Rated Mechanics' cardData={topMechanics} card={CardMechanic}/>
+                    <TopCards title='Top Rated Mechanics' cardData={topMechanics} Card={CardMechanic}/>
                 </div>
             </main>
             <Image className="-z-50" src="/static/images/bg/homepage-bg.jpg" layout="fill" objectFit="cover" alt="Background Image"/>
