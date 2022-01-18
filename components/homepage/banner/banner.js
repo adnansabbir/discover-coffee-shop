@@ -3,7 +3,7 @@ const Banner = () => {
         <div className="grid gap-4 md:gap-6 justify-center md:justify-start">
             <div className="grid md:block gap-2 justify-center">
                 <span className="text-white uppercase font-bold text-6xl">I am in </span>
-                <span className="text-red-600 uppercase font-bold text-6xl">trouble</span>
+                <span className="text-red-600 uppercase font-bold text-6xl">trouble!</span>
             </div>
             <p className="text-gray-200 text-center md:text-left text-xl md:text-4xl">Find me nearest mechanic shop</p>
             <button className="
